@@ -72,13 +72,13 @@ class GradeCalculator:
         
         # Return the letter that corresponds to
         # the percentage cutoff
-        if percentage_grade >= 0.91:
+        if percentage_grade >= 0.90:
             return 'A'
-        elif percentage_grade >= 0.8:
+        elif percentage_grade >= 0.85:
             return 'B'
-        elif percentage_grade >= 0.74:
+        elif percentage_grade >= 0.80:
             return 'C'
-        elif percentage_grade >= 0.6:
+        elif percentage_grade >= 0.75:
             return 'D'
         else:
             return 'F'
